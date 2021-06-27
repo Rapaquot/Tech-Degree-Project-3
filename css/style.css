@@ -1,0 +1,111 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  background-color:#2d3945 ;
+  color: white;
+  height: 100px;
+}
+
+h1{
+   margin-top: 0;
+   padding-top: 1.6rem;
+}
+
+h2,p{
+  text-align: center;
+}
+
+.intro{
+  border-bottom: 5px solid #2d3945;
+  margin: auto;
+  max-width: 320px;
+}
+
+h2, legend,{
+  color:#2d3945;
+}
+
+.contact_info{
+  border-top: 1px solid #2d3945;
+  margin: auto;
+  padding-top: 1rem ;
+  padding-bottom: 1rem;
+  max-width: 320px;
+  font-size: 1.4rem;
+}
+
+
+form {
+  margin: 10px auto;
+  padding: 10px 10px;
+}
+
+.personal_info, select, textarea{
+  background-color: #eff0f1;
+  margin-bottom: .75rem;
+  margin-top: .25rem;
+  width: 92%;
+  height: 50px;
+  border-radius: 5%;
+}
+
+.userzip{
+  background-color: #eff0f1;
+  margin-bottom: .75rem;
+  margin-top: .25rem;
+  width: 25%;
+  height: 50px;
+  border-radius: 5%;
+}
+
+input{
+  text-align: right;
+  color: lightgrey;
+  font-style: italic;
+}
+
+.personal_info, label, .userzip{
+  display: block;
+}
+
+.newsletter{
+  display: inline;
+  margin-bottom: 1rem;
+  margin-top: .75rem;
+}
+
+fieldset{
+  border: 0;
+}
+
+label{
+  border-bottom: 1.3rem;
+}
+
+input, label{
+  font-family: 'Work Sans', sans-serif;
+}
+
+textarea{
+  height: 100px;
+}
+
+button{
+  max-width: 320px;
+  text-align: center;
+  margin: auto;
+  width: 94%;
+  height: 60px;
+  border-radius: 5%;
+  background-color: #4ebbb5;
+  color:white;
+}
+
+h4{
+  text-align: center;
+  color:lightgrey;
+}
