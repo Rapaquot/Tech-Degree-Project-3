@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -57,8 +57,8 @@
     </fieldset>
 
     <fieldset>
-      <div class= 'contact_info'>
-      <legend> <strong>  Newsletter </strong> </legend>
+      <div class='contact_info'>
+        <legend> <strong>  Newsletter </strong> </legend>
       </div>
       <label> Select the newsletters you would like to receive </label>
       <input type='checkbox' id='html_news' value='html_news' name='news' class='newsletter'>
@@ -70,12 +70,14 @@
       <input type='checkbox' id='javascript_news' value='Javascript_news' name='news' class='newsletter'>
       <label for='javascript_news' class='newsletter'> Javascript News </label> <br>
 
-      <label> Newsletter format </label>
-      <input type='radio' id='html' value='html' name='preffered_format' class='newsletter'>
-      <label for='html' class='newsletter'> HTML </label> <br>
+      <div class='format'>
+        <label> Newsletter format </label>
+        <input type='radio' id='html' value='html' name='preffered_format' class='newsletter'>
+        <label for='html' class='newsletter'> HTML </label> <br>
 
-      <input type='radio' id='plain_text' value='plain_text' name='preffered_format' class='newsletter'>
-      <label for='plain_text' class='newsletter'> Plain Text </label> <br>
+        <input type='radio' id='plain_text' value='plain_text' name='preffered_format' class='newsletter'>
+        <label for='plain_text' class='newsletter'> Plain Text </label> <br>
+      </div>
 
       <label for='opinions'> Other topics you'd like to hear about </label>
       <textarea id='opinions' name='user_opinion'></textarea>
