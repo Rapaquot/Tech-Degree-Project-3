@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 
 <html lang="en">
 
@@ -22,10 +22,10 @@
       <h2>Sign Up for our Newsletters ! </h2>
       <p> Get the latest news on how your code is doing right in your inbox </p>
     </div>
-    <fieldset>
-      <div class='contact_info'>
-        <legend> <strong> Contact Information</strong> </legend>
-      </div>
+
+    <fieldset class='information'>
+        <legend class='contact_info'> <strong> Contact Information</strong> </legend>
+
       <label for='name'>Full Name</label>
       <input type='text' id='name' name='user_name' class='personal_info' placeholder="required"> <br>
 
@@ -44,6 +44,7 @@
 
       <label for='state'> State </label>
       <select id='state' name='user_state'>
+        <option value=''> Select your state </option>
         <option value='california'> California </option>
         <option value='florida'> Florida </option>
         <option value='arizona'> Arizona </option>
@@ -57,10 +58,10 @@
     </fieldset>
 
     <fieldset>
-      <div class='contact_info'>
-        <legend> <strong>  Newsletter </strong> </legend>
-      </div>
-      <label> Select the newsletters you would like to receive </label>
+
+        <legend> <strong> Newsletter</strong> </legend>
+
+      <label> Select the newsletters you would like to receive </label><br>
       <input type='checkbox' id='html_news' value='html_news' name='news' class='newsletter'>
       <label for='html_news' class='newsletter'> HTML News </label> <br>
 
@@ -71,7 +72,7 @@
       <label for='javascript_news' class='newsletter'> Javascript News </label> <br>
 
       <div class='format'>
-        <label> Newsletter format </label>
+        <label> Newsletter format </label> <br>
         <input type='radio' id='html' value='html' name='preffered_format' class='newsletter'>
         <label for='html' class='newsletter'> HTML </label> <br>
 
@@ -79,8 +80,8 @@
         <label for='plain_text' class='newsletter'> Plain Text </label> <br>
       </div>
 
-      <label for='opinions'> Other topics you'd like to hear about </label>
-      <textarea id='opinions' name='user_opinion'></textarea>
+      <label for='opinions' class='question'> Other topics you'd like to hear about </label>
+      <textarea id='opinions' name='user_opinion' class='question'></textarea>
       <button type='submit'>Sign Up</button>
     </fieldset>
     <h4> Copyright The Code Review</h4>
