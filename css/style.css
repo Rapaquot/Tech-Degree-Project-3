@@ -70,6 +70,10 @@ select:focus{
   background-color: lightblue;
 }
 
+textarea:focus{
+  background-color: lightblue;
+}
+
 
 
 
